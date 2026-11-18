@@ -85,7 +85,7 @@ class DetailMakananPage extends StatelessWidget {
               ),
             Obx(
                 () => Text(
-                  hitungController.hasil.toString(),
+                  hitung.hasil.toString(),
                   style: TextStyle(fontSize: 30, color: Colors.black, fontWeight: FontWeight.bold),
                 ),
               ),
